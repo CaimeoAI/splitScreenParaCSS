@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+section {
+    position: relative;
+}
+
 h2 {
     font-size: 32px;
     line-height: 30px;
@@ -38,6 +42,22 @@ h2 {
     left: 100px;
 }
 
-section {
-    position: relative;
+#intro {
+    background: url(https://images.unsplash.com/photo-1563863251222-11d3e3bd3b62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) no-repeat fixed;
+    background-size: cover;
+    height: 1200px;
+}
+
+#second {
+    background: url(https://images.unsplash.com/photo-1607419661113-96a1ab54b9e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) no-repeat fixed;
+    background-size: cover;
+    height: 1300px;
+    overflow: hidden;
+}
+
+#third {
+    background: url(https://images.unsplash.com/photo-1602514305932-2a93f125dbdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+    overflow: hidden;
 }
