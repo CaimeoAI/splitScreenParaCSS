@@ -23,7 +23,7 @@ h2 {
 }
 
 .caption {
-    width: 30%;
+    width: 35%;
     position: absolute;
 }
 
@@ -32,16 +32,19 @@ h2 {
 }
 
 #intro .caption {
+    background-color: rgba(90, 89, 89, 0.904);
     top: 100px;
     left: 200px;
 }
 
 #second .caption {
+    background-color: rgba(90, 89, 89, 0.733);
     top: 150px;
     right: 100px;
 }
 
 #third .caption {
+    background-color: rgba(90, 89, 89, 0.733);
     bottom: 100px;
     left: 100px;
 }
