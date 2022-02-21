@@ -27,6 +27,10 @@ h2 {
     position: absolute;
 }
 
+.filler {
+    height: 2rem;
+}
+
 #intro .caption {
     top: 100px;
     left: 200px;
